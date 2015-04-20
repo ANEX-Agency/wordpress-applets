@@ -2,7 +2,13 @@
 WordPress Applets is an attempt to combine shortcodes, widgets and template tags within WordPress
 
 ### What is an applet?
-An Applet is basically a piece of code which can be inserted anywhere within WordPress. It works basically like a shortcode, a widget or a template tag
+An Applet is basically a piece of code which can be inserted anywhere within WordPress. It works basically like a shortcode, a widget or a template tag.
+
+The difference is just that it works the same, regardless where it gets used.
+
+* Shortcode
+* Widget
+* Template Tag
 
 ### Why the combination of them?
 As a wordpress developer there is always the decision what functionality will be put as shortcode, what will be put as widget and what will be put only as template tag. In the most scenarios the code output itself doesn't change much, but with the current system it is somehow harder to maintain the code base.
@@ -18,7 +24,17 @@ Last but not least there is always the work for the options itself of a particul
 ### How to solve that?
 That's where applets come in handy. An applet combines all of that, leaving only the frontend output in the hands of the developer. The whole logic is done behind the curtain.
 
-So basically it only needs to have a definition file which consists of a multi-dimensional array where to setup the parameters of an applet. The applet itself will be created dynamically from the WordPress Applets Plugin.
+So basically it only needs to have a definition file which consists of a multi-dimensional array where to setup the parameters of an applet. The applet (and its components) itself will be created dynamically from the WordPress Applets Plugin.
+
+# Features
+Assets Loading (on demand)
+Widget Settings Panel (Accordion) for having multiple options organized
+Streamlined widget settings save/update process
+Optional functionality as shortcode, widget and/or template tag
+Support for upcoming Shortcode UI (Shortcake)
 
 ### Ready?
 Not yet. Still working on a pre-alpha. Suggestions are welcome.
+
+### Demo?
+Will become available as soon as the pre-alpha is out. The demo will concist of the pre-alpha and an example plugin which makes proper use. You just need to install both plugins into your WordPress Playground/Test-Installation and have a look at the self-explaining code.
