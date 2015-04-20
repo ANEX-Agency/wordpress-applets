@@ -27,11 +27,11 @@ That's where applets come in handy. An applet combines all of that, leaving only
 So basically it only needs to have a definition file which consists of a multi-dimensional array where to setup the parameters of an applet. The applet (and its components) itself will be created dynamically from the WordPress Applets Plugin.
 
 # Features
-Assets Loading (on demand)
-Widget Settings Panel (Accordion) for having multiple options organized
-Streamlined widget settings save/update process
-Optional functionality as shortcode, widget and/or template tag
-Support for upcoming Shortcode UI (Shortcake)
+* Assets Loading (on demand)
+* Widget Settings Panel (Accordion) for having multiple options organized
+* Streamlined widget settings save/update process
+* Optional functionality as shortcode, widget and/or template tag
+* Support for upcoming Shortcode UI (Shortcake)
 
 ### Ready?
 Not yet. Still working on a pre-alpha. Suggestions are welcome.
